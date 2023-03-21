@@ -13,7 +13,7 @@ jobs:
         shell: bash
         id: execute-script
         continue-on-error: true
-        run: sh  /home/ubuntu/s-script.sh
+        run: sh  /home/ubuntu/script.sh
              
            echo "::set-output name=exit-code::$?"
 
